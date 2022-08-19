@@ -14,6 +14,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 24px 0px 18px 0px;
+}
+.logo {
+  color: #555555;
+  font-size: 12px;
+}
+.logo > img {
+  width: 90px;
+}
+.farm_name {
+  color: grey;
+  font-size: 12px;
+  margin-right: 20px;
+}
 .profile {
   display: flex;
   flex-direction: row;
@@ -25,7 +45,7 @@ body {
   height: 58px;
   border-radius: 100%;
   border: 1px solid black;
-  background-image: url("https://youngkwon315.github.io/ybprofile/img/bigimg_002.png");
+  background-image: url("./img/pro_logo.png");
   background-position: center;
   background-size: cover;
 }
@@ -75,7 +95,6 @@ body {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   margin: 0px 0px 17px 0px;
 }
-
 .store {
   color: white;
   background-color: #26c50c;
@@ -91,10 +110,21 @@ body {
   align-items: center;
   gap: 10px;
 }
+.bigs01,
+.bigs02 {
+  width: 50%;
+  background-color: #f8f9f4;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 0px 20px 20px 20px;
+  border-radius: 8px;
+}
 .products_image {
-  width: 58px;
-  height: 58px;
-  margin-bottom: 12px;
+  width: 90px;
+  height: 90px;
 }
 .products_image > img {
   width: 100%;
@@ -108,7 +138,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  padding: 20px 16px 16px 16px;
+  padding: 0px 20px 20px 20px;
   border-radius: 8px;
 }
 .desc {
@@ -137,7 +167,7 @@ body {
   background-color: #d6cfc7;
 }
 .btmtitle {
-  margin-top: 24px;
+  margin: 24px 0px;
   color: grey;
   font-size: 10px;
 }
