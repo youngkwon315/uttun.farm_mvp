@@ -4,11 +4,11 @@
   font-family: "Noto Sans KR", "Noto Serif KR", serif;
 }
 body {
-  background-color: #f7faec;
+  background-color: #white;
 }
 .wrap {
   width: 320px;
-  margin: -10px auto 0px auto;
+  margin: 0px auto 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
